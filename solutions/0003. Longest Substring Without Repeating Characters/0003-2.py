@@ -11,3 +11,8 @@ class Solution:
       lastSeen[c] = i
 
     return ans
+
+
+def main():
+  soln = Solution()
+  answer = soln.lengthOfLongestSubstring()
